@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 10px, 20px, 20px, 15px;
+}
+
+header {
+    display: flex;
+    padding: 1px;
+    color: white;
+    background: rgb(27, 27, 43);
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+}
+
+header h1 {
+    background-color: lightblue;
+    color: rgb(27, 27, 43);
+}
+
+p {
+    text-align: center;
+    right: 
+}
+
+nav a {
+    color: lightblue;
+    
+}
+
+.taco {
+    background-image: url("../Images/black-sand.jpg");
+    background-size: 2560px 200px;
+    background-repeat: no-repeat;
+    color: lightseagreen;
+    padding: 40px;
+    
+}
+.taco div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+.project-1  {
+    color: white;
+    width: 1100px;
+    border: 5px solid lightseagreen;
+    padding: 300px;
+    margin: 40px;
+    right: 40%;
+}
+
+.project-2 {
+    width: 300px;
+    border: 5px solid lightseagreen;
+    padding: 50px;
+    margin: 20px;
+}
+
+.project-1-photo {
+    background-image: url(../Images/pexels-otavio-fonseca-4665064.jpg);
+    background-size: 1100px 900px;
+    background-repeat: no-repeat;
+}
+
+.project-2-photos {
+
+}
