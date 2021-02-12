@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial;
-    margin: 10px, 20px, 20px, 15px;
+    margin: auto;
 }
 
 header {
@@ -14,9 +14,6 @@ header {
     background: rgb(27, 27, 43);
     justify-content: space-around;
     align-items: center;
-    
-
-    
 }
 
 header h1 {
@@ -24,15 +21,26 @@ header h1 {
     color: rgb(27, 27, 43);
 }
 
-p {
-    text-align: center;
-    right: 
-}
-
 nav a {
     color: lightblue;
     
 }
+
+p {
+    text-align: center;
+    
+}
+
+ /*figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    flex-flow: column wrap;
+}
+*/
+
+
+
 
 .taco {
     background-image: url("../Images/black-sand.jpg");
@@ -49,33 +57,67 @@ nav a {
     align-items: flex-end;
 }
 
+.vertical {
+    border-right: 6px solid rgb(27, 27, 43);
+    height: 300px;
+    position: absolute;
+    left: 15%;
+    
+}
+
+/*.about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+*/
 
 
-
-
-
-.project-1  {
+.project-large  {
+    display: flex;
     color: white;
     width: 1100px;
     border: 5px solid lightseagreen;
-    padding: 300px;
+    padding: 250px;
     margin: 40px;
-    right: 40%;
+    
 }
 
-.project-2 {
-    width: 300px;
-    border: 5px solid lightseagreen;
-    padding: 50px;
-    margin: 20px;
-}
-
-.project-1-photo {
+.project-large-photo {
     background-image: url(../Images/pexels-otavio-fonseca-4665064.jpg);
     background-size: 1100px 900px;
     background-repeat: no-repeat;
 }
 
-.project-2-photos {
 
+.project-small {
+    display: flex;
+    width: 600px;
+    border: 5px solid lightseagreen;
+    padding: 50px;
+    margin: 20px;
+}
+
+.project-2-photo {
+    background-image: url(../Images/pexels-sharad-kachhi-3937174.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+}
+
+.project-3-photo {
+    background-image: url(../Images/pexels-josh-sorenson-1714208.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+}
+
+.project-4-photo {
+    background-image: url(../Images/pexels-fox-1038916.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+}
+
+.project-5-photo{
+    background-image: url(../Images/pexels-designecologist-1779487.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
 }
