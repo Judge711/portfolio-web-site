@@ -3,8 +3,7 @@
 }
 
 body {
-    font-family: Arial;
-    margin: auto;
+    font-family: Arial;   
 }
 
 header {
@@ -12,7 +11,7 @@ header {
     padding: 1px;
     color: white;
     background: rgb(27, 27, 43);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -26,21 +25,6 @@ nav a {
     
 }
 
-p {
-    text-align: center;
-    
-}
-
- /*figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around
-    flex-flow: column wrap;
-}
-*/
-
-
-
 
 .taco {
     background-image: url("../Images/black-sand.jpg");
@@ -50,27 +34,13 @@ p {
     padding: 40px;
     
 }
+
 .taco div {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
 }
-
-.vertical {
-    border-right: 6px solid rgb(27, 27, 43);
-    height: 300px;
-    position: absolute;
-    left: 15%;
-    
-}
-
-/*.about-me {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-*/
 
 
 .project-large  {
@@ -121,3 +91,61 @@ p {
     background-repeat: no-repeat;
     background-size: 600px 400px;
 }
+
+
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+main section {
+    display: flex;
+    min-height: 100px;
+    margin: 30px auto;
+    width: 100%;
+}
+
+.section-header {
+    border-right: solid blueviolet;
+    width: 150px;
+    margin: 0 20px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
+}
+
+.section-content {
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    main section {
+        flex-direction: column;
+    }
+
+    .section-header {
+        margin: 20px 0;
+        padding: 20px 0;
+        border-right: none;
+        border-bottom: solid blueviolet;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-content {
+        width: 100%;
+        
+    }
+  }
