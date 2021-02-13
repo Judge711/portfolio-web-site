@@ -94,13 +94,6 @@ nav a {
 
 
 
-
-
-
-
-
-
-
 main {
     display: flex;
     flex-direction: column;
@@ -146,6 +139,6 @@ main section {
 
     .section-content {
         width: 100%;
-        
+
     }
   }
