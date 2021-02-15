@@ -43,13 +43,13 @@ nav a {
 }
 
 
-.project-large  {
-    display: flex;
-    color: white;
-    width: 1100px;
+
+.project-large {
     border: 5px solid lightseagreen;
-    padding: 250px;
-    margin: 40px;
+    color: white;
+    width: 100%;
+    margin: 0;
+    
     
 }
 
@@ -60,12 +60,12 @@ nav a {
 }
 
 
+
 .project-small {
-    display: flex;
-    width: 600px;
+    width: 49%;
     border: 5px solid lightseagreen;
-    padding: 50px;
-    margin: 20px;
+    margin: 20px 0 0 0;
+    
 }
 
 .project-2-photo {
@@ -92,14 +92,11 @@ nav a {
     background-size: 600px 400px;
 }
 
-
-
 main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     max-width: 1140px;
-
 }
 
 main section {
@@ -121,6 +118,27 @@ main section {
 .section-content {
     width: 80%;
 }
+
+
+.border:hover {
+    cursor: pointer;
+    background-color:lightseagreen;
+    box-shadow:  0 0 50px lightseagreen;
+}
+
+
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     main section {
