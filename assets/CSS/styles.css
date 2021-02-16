@@ -15,9 +15,9 @@ header {
     align-items: center;
 }
 
-header h1 {
-    background-color: lightblue;
-    color: rgb(27, 27, 43);
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 nav a {
@@ -25,71 +25,78 @@ nav a {
     
 }
 
+h1,h2,h3,h4,h5,h6,h7,h8 {
+    font-family: 'Lexend Mega', sans-serif;
+}
 
-.taco {
+p,a {
+    font-family: 'Roboto', sans-serif
+}
+
+.hero {
     background-image: url("../Images/black-sand.jpg");
-    background-size: 2560px 200px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: lightseagreen;
-    padding: 40px;
-    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 20px black;
+    flex-direction: column;
 }
 
-.taco div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
 
 
 
 .project-large {
-    border: 5px solid lightseagreen;
-    color: white;
+    
+    border-radius: 360px;
     width: 100%;
     margin: 0;
-    
-    
-}
-
-.project-large-photo {
     background-image: url(../Images/pexels-otavio-fonseca-4665064.jpg);
-    background-size: 1100px 900px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
 }
-
 
 
 .project-small {
     width: 49%;
-    border: 5px solid lightseagreen;
-    margin: 20px 0 0 0;
     
+    border-radius: 360px;
+    margin: 40px 0 0 0;
+    height: 200px;
 }
 
 .project-2-photo {
     background-image: url(../Images/pexels-sharad-kachhi-3937174.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 600px 400px;
+    background-position: center;
 }
 
 .project-3-photo {
     background-image: url(../Images/pexels-josh-sorenson-1714208.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 600px 400px;
+    background-position: center;
 }
 
 .project-4-photo {
     background-image: url(../Images/pexels-fox-1038916.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 600px 400px;
+    background-position: center;
 }
 
 .project-5-photo{
     background-image: url(../Images/pexels-designecologist-1779487.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 600px 400px;
+    background-position: center;
 }
 
 main {
@@ -115,6 +122,10 @@ main section {
     padding: 0 20px 0 0;
 }
 
+.section-header h3 {
+    
+}
+
 .section-content {
     width: 80%;
 }
@@ -122,8 +133,7 @@ main section {
 
 .border:hover {
     cursor: pointer;
-    background-color:lightseagreen;
-    box-shadow:  0 0 50px lightseagreen;
+    box-shadow:  0 0 15px lightseagreen;
 }
 
 
@@ -134,8 +144,23 @@ main section {
     justify-content: space-between;
 }
 
+.project-container figure div {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
 
+.project-container figure {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow:  0 0 15px black;
+    
 
+}
 
 
 
@@ -159,4 +184,9 @@ main section {
         width: 100%;
 
     }
+
+    .project-small {
+        width: 100%;
+    }
+
   }
