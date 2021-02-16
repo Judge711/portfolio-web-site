@@ -21,11 +21,11 @@
 
         <nav>
         
-            <a href="#">About Me</a>
+            <a href="#about-me">About Me</a>
             
-            <a href="#">Work</a>
+            <a href="#work">Work</a>
             
-            <a href="#">Contact Me</a>
+            <a href="#contact-me">Contact Me</a>
             
         
         </nav>
@@ -46,10 +46,16 @@
     
     
     <main>
-
+        
+        <section class="picture-section">
+            <figure>
+               <img src="./assets/Images/Thomas-J-Farrell.jpg" alt="Thomas J Farrell Picture"> 
+            </figure>
+        </section>
+        
         <section>        
            
-            <div class="section-header">
+            <div id="about-me" class="section-header">
               
                 <h3>About Me</h3>
             
@@ -58,8 +64,8 @@
             <div class="section-content">   
                 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis nostrum dicta. Cum, totam cumque, delectus itaque omnis voluptate dolorem quis corrupti officiis asperiores qui repellendus tempore nemo? Dolorum, sed.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis nostrum dicta. Cum, totam cumque, delectus itaque omnis voluptate dolorem quis corrupti officiis asperiores qui repellendus tempore nemo? Dolorum, sed.
+                    Hi, My name is Thomas J Farell and this is my Portfolio website! I'm currently taking part of the full-stack development boot camp at UNC. I've currently dabbled in HTML and CSS which I used to create this little page here and I'm beginning to learn Java Script!
+                    This website is very much a work in progress and will continue to be so for the near future so thanks for stopping by!
                 </p>
             
             </div>
@@ -69,81 +75,93 @@
         
         <section>
 
-            <div class="section-header">
+            <div id="work" class="section-header">
                
                 <h3>Work</h3>
             
             </div>
             
             <div class="section-content project-container">
-                <figure class="project-large border">
+                <a href="https://judge711.github.io/horiseon-code-clean-up/" target="_blank" class="project-large">
+                    <figure class="project-large border">
 
-                    <div>
+                        <div>
 
-                        <h4>Project 1</h4>
-                
-                    </div>
-            
-                </figure>
-
-                <figure class="project-small project-2-photo border">
-
-                    <div>
-
-                        <h4>Project 2</h4>
-                
-                    </div>
-                
-                </figure>
-
-                <figure class="project-small project-3-photo border">
-
-                    <div>
-
-                        <h4>Project 3</h4>
-                
-                    </div>
-                
-                </figure>
-
-                <figure class="project-small project-4-photo border">
-
-                    <div>
-                        
-                        <h4>Project 4</h4>
+                            <h4>Horiseon Code Refactor</h4>
                     
-                    </div>
+                        </div>
                 
-                </figure>
-
-                <figure class="project-small project-5-photo border">
-
-                    <div>
-
-                        <h4>Project 5</h4>
+                    </figure>
+                </a>
                 
-                    </div>
+                <a href="https://github.com/Judge711" target="_blank"class="project-small">
+                    <figure class="project-small project-2-photo border">
+
+                        <div>
+
+                            <h4>Coming Soon</h4>
+                    
+                        </div>
+                    
+                    </figure>
+                </a>
                 
-                </figure>
+                <a href="https://github.com/Judge711" target="_blank"class="project-small">
+                    <figure class="project-small project-3-photo border">
+
+                        <div>
+
+                            <h4>Coming Soon</h4>
+                    
+                        </div>
+                    
+                    </figure>
+                </a> 
+                
+                <a href="https://github.com/Judge711" target="_blank"class="project-small">
+                    <figure class="project-small project-4-photo border">
+
+                        <div>
+                            
+                            <h4>Coming Soon</h4>
+                        
+                        </div>
+                    
+                    </figure>
+                </a>
+                
+                <a href="https://github.com/Judge711" target="_blank"class="project-small">
+                    <figure class="project-5-photo border project-small">
+
+                        <div>
+
+                            <h4>Coming Soon</h4>
+                    
+                        </div>
+                    
+                    </figure>
+                </a>
             </div>
         
         </section>
 
         
-        <section>
+        <section class="contact-section">
 
-            <div class="section-header">
+            <div id="contact-me" class="section-header">
                 <h3>Contact Me</h3>                
             </div>
 
             <div class="section-content">
-                <a href="#"><i class="fas fa-mobile"></i> 906.250.5512</a>
-                <a href="#"><i class="fas fa-paper-plane"></i> thomasjf711@gmail.com</a>
-            </div>
+                <div>
+                    <span><i class="fas fa-mobile"></i> 906.250.5512</span>
+                    <a href="mailto:Thomasjf711@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> thomasjf711@gmail.com</a>
+                </div>
 
-            <div>
-                <a href="#"><i class="fab fa-github"></i> Judge711</a>
-                <a href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                <div>
+                    <a href="https://github.com/Judge711" target="_blank"><i class="fab fa-github"></i> Judge711</a>
+                    <a href="https://www.linkedin.com/in/thomas-farrell-2b267a181/" target="_blank"><i class="fab fa-linkedin-in"></i> Thomas Farrell</a>
+                </div>
             </div>
 
         </section>
