@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 /* General Styling */
 
 h1,h2,h3,h4,h5,h6,h7,h8 {
@@ -22,6 +23,9 @@ a, a:hover, a:focus, a:active {
     background-position: center;
 }
 
+/* End of General Styling */
+/* ======================================= */
+
 /* Header & Nav Styling */
 
 header {
@@ -37,6 +41,9 @@ nav a {
     color: lightblue; 
 }
 
+/* End of Header & Nav Styling */
+/* ======================================= */
+
 /* Hero Image Styling */
 
 .hero {
@@ -49,6 +56,9 @@ nav a {
     box-shadow:  0 0 20px black;
     flex-direction: column;
 }
+
+/* End of Hero Image Styling */
+/* ======================================= */
 
 /* Page Content Container */
 
@@ -66,6 +76,9 @@ main section {
     width: 100%;
 }
 
+/* End of Page Content Container */
+/* ======================================= */
+
 /* Section Styling */
 
 .section-header {
@@ -81,6 +94,9 @@ main section {
     width: 80%;
 }
 
+/* End of Section Styling */
+/* ======================================= */
+
 /* Developer Picture Section Styling */
 
 .picture-section figure {
@@ -92,6 +108,9 @@ main section {
     border-radius: 180px;
     width: 20%;
 }
+
+/* End of Developer Picture Section Styling */
+/* ======================================= */
 
 /* Project Section Styling */
 
@@ -159,6 +178,9 @@ main section {
     box-shadow:  0 0 15px lightseagreen;
 }
 
+/* End of Project Sectiong Styling */
+/* ======================================= */
+
 /* Contact Section Styling */
 
 .contact-section .section-content {
@@ -166,6 +188,9 @@ main section {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* End of Contact Section Styling */
+/* ======================================= */
 
 /* Media Queries for Smaller Screens */
 
@@ -194,3 +219,6 @@ main section {
     }
 
   }
+
+  /* End of Media Queries for Smaller Screens */
+  /* ======================================= */
