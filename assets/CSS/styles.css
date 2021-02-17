@@ -1,10 +1,28 @@
 * {
     box-sizing: border-box;
 }
+/* General Styling */
 
-body {
-    font-family: Arial;   
+h1,h2,h3,h4,h5,h6,h7,h8 {
+    font-family: 'Lexend Mega', sans-serif;
 }
+
+p,a {
+    font-family: 'Roboto', sans-serif
+}
+
+a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.image-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Header & Nav Styling */
 
 header {
     display: flex;
@@ -15,29 +33,14 @@ header {
     align-items: center;
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
 nav a {
-    color: lightblue;
-    
+    color: lightblue; 
 }
 
-h1,h2,h3,h4,h5,h6,h7,h8 {
-    font-family: 'Lexend Mega', sans-serif;
-}
-
-p,a {
-    font-family: 'Roboto', sans-serif
-}
+/* Hero Image Styling */
 
 .hero {
     background-image: url("../Images/black-sand.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     color: lightseagreen;
     height: 500px;
     display: flex;
@@ -47,70 +50,7 @@ p,a {
     flex-direction: column;
 }
 
-.picture-section figure {
-    display: flex;
-    justify-content: center;
-    
-
-}
-
-.picture-section figure img {
-    border-radius: 180px;
-    width: 20%;
-}
-
-.project-large {
-    border-radius: 360px;
-    width: 100%;
-    margin: 0;
-    background-image: url(../Images/01-html-css-git-homework-demo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left top;
-    height: 350px;
-}
-
-
-
-.project-small {
-    width: 49%;
-    border-radius: 360px;
-    margin: 40px 0 0 0;
-    height: 200px;
-}
-
-.project-small figure {
-    width: 100%;
-    margin: 0;
-}
-
-.project-2-photo {
-    background-image: url(../Images/pexels-sharad-kachhi-3937174.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.project-3-photo {
-    background-image: url(../Images/pexels-josh-sorenson-1714208.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.project-4-photo {
-    background-image: url(../Images/pexels-fox-1038916.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.project-5-photo{
-    background-image: url(../Images/pexels-designecologist-1779487.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/* Page Content Container */
 
 main {
     display: flex;
@@ -126,6 +66,8 @@ main section {
     width: 100%;
 }
 
+/* Section Styling */
+
 .section-header {
     border-right: solid blueviolet;
     width: 150px;
@@ -135,21 +77,23 @@ main section {
     padding: 0 20px 0 0;
 }
 
-.section-header h3 {
-    
-}
-
 .section-content {
     width: 80%;
 }
 
+/* Developer Picture Section Styling */
 
-.border:hover {
-    cursor: pointer;
-    box-shadow:  0 0 15px lightseagreen;
+.picture-section figure {
+    display: flex;
+    justify-content: center;
 }
 
+.picture-section figure img {
+    border-radius: 180px;
+    width: 20%;
+}
 
+/* Project Section Styling */
 
 .project-container {
     display: flex;
@@ -171,9 +115,51 @@ main section {
     display: flex;
     align-items: center;
     box-shadow:  0 0 15px black;
-    
-
 }
+
+.project-large {
+    border-radius: 360px;
+    width: 100%;
+    margin: 0;
+    background-image: url(../Images/01-html-css-git-homework-demo.png);
+    background-position: left top;
+    height: 350px;
+}
+
+.project-small {
+    width: 49%;
+    border-radius: 360px;
+    margin: 40px 0 0 0;
+    height: 200px;
+}
+
+.project-small figure {
+    width: 100%;
+    margin: 0;
+}
+
+.project-2-photo {
+    background-image: url(../Images/pexels-sharad-kachhi-3937174.jpg);
+}
+
+.project-3-photo {
+    background-image: url(../Images/pexels-josh-sorenson-1714208.jpg);
+}
+
+.project-4-photo {
+    background-image: url(../Images/pexels-fox-1038916.jpg);
+}
+
+.project-5-photo{
+    background-image: url(../Images/pexels-designecologist-1779487.jpg);
+}
+
+.border:hover {
+    cursor: pointer;
+    box-shadow:  0 0 15px lightseagreen;
+}
+
+/* Contact Section Styling */
 
 .contact-section .section-content {
     display: flex;
@@ -181,6 +167,7 @@ main section {
     justify-content: space-evenly;
 }
 
+/* Media Queries for Smaller Screens */
 
 @media screen and (max-width: 768px) {
     main section {
@@ -199,7 +186,7 @@ main section {
 
     .section-content {
         width: 100%;
-
+        padding: 0 10px;
     }
 
     .project-small {
